@@ -55,7 +55,7 @@ export function App() {
       <div className="feedbackBox">
         <Section title="Please leave a feedback">
           <FeedbackOptions
-            options={OPTIONS}
+            options={Object.keys({ good, neutral, bad })}
             onLeaveFeedback={onCountFeedback}
           />
         </Section>

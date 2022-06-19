@@ -4,8 +4,6 @@ import Statistics from './Statistics/Statistics';
 import Section from './Section/Section';
 import Notification from './Notification/Notification';
 
-const OPTIONS = ['good', 'neutral', 'bad'];
-
 export function App() {
   const [good, setGood] = useState(0);
   const [neutral, setNeutral] = useState(0);
